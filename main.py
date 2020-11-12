@@ -1,8 +1,7 @@
 import queue 
 
-map = []
-
 def buatMap():
+    map = []
     map.append(["#","#","#","#","O","#","#","#","#","#","#"])
     map.append(["#","X"," ","#"," "," "," "," "," "," ","#"])
     map.append(["#"," "," ","#"," ","#","#","#","#"," ","#"])
@@ -17,10 +16,3 @@ def buatMap():
     map.append(["#","#","#","#"," ","#","#","#","#","#","#"])
 
     return map
-
-#def printMap (map, ):
-
-buatMap()
-
-for x in range(0,12) :
-    print(map[x],"\n")          #test cetak Peta
